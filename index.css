@@ -51,11 +51,19 @@ nav {
 .title {
   font-size: 4rem;
   font-weight: 900;
-  line-height: 5rem;
+  line-height: 3rem;
 }
 
 .text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: monospace;
   color: #000009a0;
+  line-height: 2rem;
 }
+
+.highlight {
+  background-color: #F4F1EE;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+}
+

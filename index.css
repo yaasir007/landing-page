@@ -55,8 +55,8 @@ nav {
 }
 
 .text {
-  font-size: 1rem;
-  font-family: monospace;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #000009a0;
   line-height: 2rem;
 }
@@ -65,5 +65,43 @@ nav {
   background-color: #F4F1EE;
   padding: .5rem 1rem;
   border-radius: 10px;
+  text-decoration: none;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 
+.social {
+  cursor: pointer;
+  width: 40px;
+  height: auto;
+}
+
+.see-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.see-more > img {
+  display: inline;
+}
+
+.test {
+  width: 30px;
+  height: auto;
+  animation: arrow 1.5s infinite ease-out;
+}
+
+@keyframes arrow {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(20px) scale(.75);
+  }
+}

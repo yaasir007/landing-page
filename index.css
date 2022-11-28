@@ -73,6 +73,8 @@ nav {
   border-radius: 10px;
   text-decoration: none;
   font-family: 'MemphisRiver', sans-serif;
+  font-weight: 700;
+  color: #000009a0;
 }
 
 .socials {
@@ -92,7 +94,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: .3rem;
 }
 
 .see-more > img {

@@ -1,10 +1,15 @@
-@import url(images/nature-beauty-font/font.ttf);
+@import url(./font/Memphis\ River.otf);
 
 *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'MemphisRiver';
+  src: url('./font/Memphis.otf');
 }
 
 nav {
@@ -23,8 +28,9 @@ nav {
 
 .links a {
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #000009a0;
+  font-family: 'MemphisRiver', sans-serif;
 }
 .img-resp {
   max-width: 100%;
@@ -49,14 +55,14 @@ nav {
 }
 
 .title {
-  font-size: 4rem;
-  font-weight: 900;
+  font-size: 7rem;
+  font-weight: 600;
   line-height: 3rem;
+  font-family: 'MemphisRiver', sans-serif;
 }
 
 .text {
   font-size: 1.2rem;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #000009a0;
   line-height: 2rem;
 }
@@ -66,7 +72,9 @@ nav {
   padding: .5rem 1rem;
   border-radius: 10px;
   text-decoration: none;
+  font-family: 'MemphisRiver', sans-serif;
 }
+
 .socials {
   display: flex;
   justify-content: center;

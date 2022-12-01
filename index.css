@@ -124,20 +124,61 @@ nav {
 
 /* Laptop - */
 @media screen and (min-width: 769px) and (max-width: 1023px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+  }
 
+  .first,
+  .second {
+    max-width: 670px;
+    width: 100%;
+  }
 }
+
 
 /* Tablet */
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .links {
-    display: none;
-  }
+  
+}
+
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
 
   .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 50vh;
+    width: 100%;
+    height: 25vh;
+  }
+
+  .links {
+    visibility: hidden;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    color: #000009a0;
+    line-height: 2rem;
+  }
+
+  .socials {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  .first,
+  .second {
+    max-width: 350px;
+    width: 100%;
   }
 }

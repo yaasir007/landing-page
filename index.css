@@ -107,7 +107,7 @@ nav {
   display: inline;
 }
 
-.test {
+.arrow-animation {
   width: 30px;
   height: auto;
   animation: arrow 1.5s infinite ease-out;

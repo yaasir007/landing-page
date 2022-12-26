@@ -33,6 +33,11 @@ nav {
   font-family: 'MemphisRiver', sans-serif;
 }
 
+.logo {
+  max-width: 45px;
+  width: 100%;
+}
+
 .img-resp {
   max-width: 100%;
   height: auto;

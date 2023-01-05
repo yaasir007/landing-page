@@ -65,6 +65,8 @@ nav {
   font-weight: 600;
   line-height: 3rem;
   font-family: 'MemphisRiver', sans-serif;
+  animation: 1.5s glitch infinite;
+  animation-timing-function: steps(2, end);
 }
 
 .text {
@@ -119,6 +121,53 @@ nav {
   }
   to {
     transform: translate(20px) scale(.75);
+  }
+}
+
+/* title animation glitch */
+@keyframes glitch {
+  0% {
+    transform: translate(-20px, -10px);
+  }
+
+  10% {
+    transform: translate(10px, 10px);
+  }
+
+  20% {
+    transform: translate(-10px, 10px);
+  }
+
+  30% {
+    transform: translate(0px, 5px);
+  }
+
+  40% {
+    transform: translate(-5px, 0px);
+  }
+
+  50% {
+    transform: translate(5px, 0px);
+  }
+
+  60% {
+    transform: translate(5px, 10px);
+  }
+
+  70% {
+    transform: translate(-10px, 10px);
+  }
+
+  80% {
+    transform: translate(20px, -10px);
+  }
+
+  90% {
+    transform: translate(-10px, 0px);
+  }
+
+  100% {
+    transform: translate(0);
   }
 }
 

@@ -1,15 +1,18 @@
 @import url(./font/Memphis\ River.otf);
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 @font-face {
-  font-family: 'MemphisRiver';
-  src: url('./font/Memphis.otf');
+  font-family: "MemphisRiver";
+  src: url("./font/Memphis.otf");
 }
 
 nav {
@@ -28,9 +31,9 @@ nav {
 
 .links a {
   text-decoration: none;
-  font-size: clamp(15px, 2vw, 70px);
+  font-size: clamp(25px, 2vw, 70px);
   color: #000009a0;
-  font-family: 'MemphisRiver', sans-serif;
+  font-family: "MemphisRiver", sans-serif;
 }
 
 .logo {
@@ -64,9 +67,8 @@ nav {
   font-size: 7rem;
   font-weight: 600;
   line-height: 3rem;
-  font-family: 'MemphisRiver', sans-serif;
-  animation: 1.5s glitch infinite;
-  animation-timing-function: steps(2, end);
+  font-family: "MemphisRiver", sans-serif;
+  filter: drop-shadow(0 -6mm 4mm #64647a);
 }
 
 .text {
@@ -76,11 +78,11 @@ nav {
 }
 
 .highlight {
-  background-color: #F4F1EE;
-  padding: .5rem 1rem;
+  background-color: #f4f1ee;
+  padding: 0.5rem 1rem;
   border-radius: 10px;
   text-decoration: none;
-  font-family: 'MemphisRiver', sans-serif;
+  font-family: "MemphisRiver", sans-serif;
   font-weight: 700;
   color: #000009a0;
 }
@@ -102,7 +104,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .3rem;
+  gap: 0.3rem;
 }
 
 .see-more > img {
@@ -120,54 +122,7 @@ nav {
     transform: translate(0px);
   }
   to {
-    transform: translate(20px) scale(.75);
-  }
-}
-
-/* title animation glitch */
-@keyframes glitch {
-  0% {
-    transform: translate(-20px, -10px);
-  }
-
-  10% {
-    transform: translate(10px, 10px);
-  }
-
-  20% {
-    transform: translate(-10px, 10px);
-  }
-
-  30% {
-    transform: translate(0px, 5px);
-  }
-
-  40% {
-    transform: translate(-5px, 0px);
-  }
-
-  50% {
-    transform: translate(5px, 0px);
-  }
-
-  60% {
-    transform: translate(5px, 10px);
-  }
-
-  70% {
-    transform: translate(-10px, 10px);
-  }
-
-  80% {
-    transform: translate(20px, -10px);
-  }
-
-  90% {
-    transform: translate(-10px, 0px);
-  }
-
-  100% {
-    transform: translate(0);
+    transform: translate(20px) scale(0.75);
   }
 }
 
@@ -187,7 +142,6 @@ nav {
     width: 100%;
   }
 }
-
 
 /* Tablet */
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -225,10 +179,8 @@ nav {
   }
 }
 
-
 /* Smartphones */
 @media screen and (max-width: 480px) {
-
   .content {
     display: flex;
     justify-content: center;

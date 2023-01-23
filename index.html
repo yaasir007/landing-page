@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./images/logo_transparent.png" type="image/x-icon">
   <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script>
+		ScrollReveal({ duration: 500 })
+	</script>
   <title>MYC_Portfolio</title>
 </head>
 <body>
@@ -17,10 +21,10 @@
       </div>
 
       <div class="links">
-        <a href="#" target="_blank">About</a>
-        <a href="#" target="_blank">Projects</a>
-        <a href="#" target="_blank">Resume</a>
-        <a href="#" target="_blank">Contact</a>
+        <a href="#" target="_blank" id="firstLink">About</a>
+        <a href="#" target="_blank" id="secondLink">Projects</a>
+        <a href="#" target="_blank" id="thirdLink">Resume</a>
+        <a href="#" target="_blank" id="fourthLink">Contact</a>
         <!-- <a href=""><img src="./images/mode.svg" alt="Dark/Light Mode"></a> -->
       </div>
     </nav>
@@ -53,19 +57,40 @@
       </div>
 
       <div class="socials">
-        <a href="https://www.linkedin.com/in/yaasir007/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn" class="social"></a>
-        <a href="https://github.com/yaasir007" target="_blank"><img src="./images/github.png" alt="Github" class="social"></a>
-        <a href="https://medium.com/@yaasir007" target="_blank"><img src="./images/medium.png" alt="Medium" class="social"></a>
-        <a href="https://www.facebook.com/MOH.Yaasir/" target="_blank"><img src="./images/facebook.png" alt="Facebook" class="social"></a>
-        <a href="https://www.instagram.com/yaasir786/" target="_blank"><img src="./images/instagram.png" alt="Instagram" class="social"></a>
-        <a href="https://twitter.com/yaasir_mohammad" target="_blank"><img src="./images/twitter.png" alt="Twitter" class="social"></a>
-        <a href="./resume/Yaasir_Cheekoory.pdf" target="_blank"><img src="./images/cv.png" alt="Resume" class="social"></a>
+        <a href="https://www.linkedin.com/in/yaasir007/" target="_blank" id="linkedin"><img src="./images/linkedin.png" alt="LinkedIn" class="social"></a>
+        <a href="https://github.com/yaasir007" target="_blank" id="github"><img src="./images/github.png" alt="Github" class="social"></a>
+        <a href="https://medium.com/@yaasir007" target="_blank" id="medium"><img src="./images/medium.png" alt="Medium" class="social"></a>
+        <a href="https://www.facebook.com/MOH.Yaasir/" target="_blank" id="fb"><img src="./images/facebook.png" alt="Facebook" class="social"></a>
+        <a href="https://www.instagram.com/yaasir786/" target="_blank" id="insta"><img src="./images/instagram.png" alt="Instagram" class="social"></a>
+        <a href="https://twitter.com/yaasir_mohammad" target="_blank" id="twitter"><img src="./images/twitter.png" alt="Twitter" class="social"></a>
+        <a href="./resume/Yaasir_Cheekoory.pdf" target="_blank" id="resume"><img src="./images/cv.png" alt="Resume" class="social"></a>
       </div>
 
     </div>
   </section>
 
-  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.logo', { delay: 1000 });
+    ScrollReveal().reveal('#firstLink', { delay: 1200 });
+    ScrollReveal().reveal('#secondLink', { delay: 1300 });
+    ScrollReveal().reveal('#thirdLink', { delay: 1400 });
+    ScrollReveal().reveal('#fourthLink', { delay: 1500 });
+
+    ScrollReveal().reveal('.title', { delay: 1600 });
+    ScrollReveal().reveal('.first', { delay: 1700 });
+    ScrollReveal().reveal('.second', { delay: 1800 });
+    ScrollReveal().reveal('.see-more', { delay: 1900 });
+
+    ScrollReveal().reveal('#linkedin', { delay: 2000 });
+    ScrollReveal().reveal('#github', { delay: 2100 });
+    ScrollReveal().reveal('#medium', { delay: 2200 });
+    ScrollReveal().reveal('#fb', { delay: 2300 });
+    ScrollReveal().reveal('#insta', { delay: 2400 });
+    ScrollReveal().reveal('#twitter', { delay: 2500 });
+    ScrollReveal().reveal('#resume', { delay: 2600 });
+
+
+  </script>
 
 </body>
 </html>

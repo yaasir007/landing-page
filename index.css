@@ -32,7 +32,8 @@ nav {
 .links a {
   text-decoration: none;
   font-size: clamp(25px, 2vw, 70px);
-  color: #000009a0;
+  /* color: #000009a0;  */
+  color: black;
   font-family: "MemphisRiver", sans-serif;
 }
 

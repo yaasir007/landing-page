@@ -21,7 +21,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #f4f1ee;
 }
 
 .links {
@@ -52,16 +51,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 40vh;
   width: 100%;
-  padding-bottom: 20rem;
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% calc(100% - 3rem),
-    0 100%
-  );
-  background-color: #8dd5dcce;
 }
 
 .content > .main {
@@ -71,7 +62,7 @@ nav {
   align-items: flex-start;
   height: 20vh;
   max-width: 900px;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .container-glitch {
@@ -320,16 +311,8 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 80vh;
+  height: 50vh;
   width: 100%;
-  padding: 1rem 1rem;
-  clip-path: polygon(
-    0% 0%,
-    100% 0%,
-    100% calc(100% - 3rem),
-    0 100%
-  );
-  background-color: #8dd5dcce;
 }
 
   .links {
